@@ -1,0 +1,14 @@
+.footer {
+  background-color: rgba(42, 44, 47, 1);
+  padding: 24px 0;
+  text-align: center;
+}
+
+.footer__copyright {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+  margin: 0;
+}
