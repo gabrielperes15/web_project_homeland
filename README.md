@@ -19,4 +19,4 @@ Página web responsiva que apresenta informações sobre localização, Projeto 
 
 ## Link do GitHub Pages
 
-[Clique aqui para ver o projeto](https://github.com/gabrielperes15/web_project_homeland.git)
+[Clique aqui para ver o projeto](https://gabrielperes15.github.io/web_project_homeland/)
