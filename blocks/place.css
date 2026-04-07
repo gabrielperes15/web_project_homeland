@@ -104,3 +104,31 @@
 .place__button:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+  .places {
+    padding: 0 32px 60px;
+    gap: 60px;
+  }
+
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .place__title {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  .place__image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .place__button {
+    margin-top: 0;
+    align-self: flex-start;
+  }
+}

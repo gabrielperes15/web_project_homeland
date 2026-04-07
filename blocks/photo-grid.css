@@ -12,3 +12,10 @@
   object-fit: cover;
   aspect-ratio: 1 / 1;
 }
+
+@media (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 32px 60px;
+  }
+}
