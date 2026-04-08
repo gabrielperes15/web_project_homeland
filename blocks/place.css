@@ -19,11 +19,7 @@
 }
 
 .place__title {
-  width: 460;
-  height: 228;
   opacity: 1;
-  top: 2403px;
-  left: 148px;
   grid-column: 1;
   grid-row: 1;
   font-size: 72px;
@@ -84,7 +80,6 @@
   width: fit-content;
   margin: 10px;
   padding: 13px 20px;
-  width: 356.08233642578125;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
