@@ -3,8 +3,8 @@
   grid-template-columns: 1fr;
   gap: 80px;
   max-width: 984px;
-  margin: 0 300px;
-  padding: 0 68px 80px;
+  margin: auto;
+  padding: 0 20px 80px;
 }
 
 .place {
@@ -62,6 +62,7 @@
   width: 100%;
   object-fit: cover;
   grid-area: image;
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 .place__description {
@@ -130,5 +131,25 @@
   .place__button {
     margin-top: 0;
     align-self: flex-start;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    padding: 0 16px 48px;
+    gap: 48px;
+  }
+
+  .place__title {
+    font-size: 28px;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+  }
+
+  .place__button {
+    font-size: 16px;
+    padding: 11px 16px;
   }
 }

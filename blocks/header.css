@@ -39,4 +39,5 @@
   margin: 64px 0 0;
   position: relative;
   filter: grayscale(100%) brightness(0.7);
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
 }

@@ -19,3 +19,10 @@
     padding: 0 32px 60px;
   }
 }
+
+@media (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    padding: 0 16px 48px;
+  }
+}
